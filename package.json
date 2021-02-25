@@ -1,0 +1,26 @@
+{
+  "name": "password-checker",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vee-validate": "^4.1.20",
+    "vue": "^3.0.5",
+    "recursive-diff": "^1.0.8",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.1",
+    "vite-plugin-pwa": "^0.1.3",
+    "vite-plugin-svg": "^0.7.0",
+    "vue-demi": "^0.4.0"
+  }
+}
