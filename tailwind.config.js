@@ -1,6 +1,6 @@
 module.exports = {
   purge: [
-    "./components/**/*.vue", 
+    // "./components/**/*.vue", 
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
