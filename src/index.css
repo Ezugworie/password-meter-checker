@@ -12,11 +12,3 @@
   margin-top: 20px;
 
 }
-
-meter::-webkit-meter-bar {
-  background: none; /* Required to get rid of the default background property */
-  background-color: whiteSmoke;
-  /* box-shadow: 0 5px 5px -5px #333 inset; */
-  -webkit-appearance: none; /* Reset appearance */
-  border: none;
-}

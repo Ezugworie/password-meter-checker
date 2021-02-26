@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col">
-    <h1 class="mb-1 font-medium md:text-xl px-1">Password Strength Checker</h1>
+    <h1 class="mb-1 font-medium md:text-xl px-2">Password Strength Checker</h1>
     <app-input 
       label="password" 
-      class="px-3"
-      :v-model="password"
+      class=""
+      v-model="password"
       ref="inputFocus"
       type="text"
     />
@@ -21,7 +21,7 @@
     <div class="flex flex-col justify-start text-left">
       <h1 class="text-gray-600">Rules</h1>
       <ul class="text-sm">
-        <li :class="assertClass.length">password length must be more than 5 </li>
+        <li :class="assertClass.length">password must have 6 or more characters </li>
         <li :class="assertClass.lowercase">must contain a lowercase letter</li>
         <li :class="assertClass.uppercase">must contain an <span class="uppercase">uppercase</span> letter</li>
         <li :class="assertClass.number">must contain a number</li>

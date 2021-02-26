@@ -1,5 +1,6 @@
 <template>
   <PasswordChecker class="flex flex-col items-center text-gray-500"/>
+  
 </template>
 
 <script setup>
